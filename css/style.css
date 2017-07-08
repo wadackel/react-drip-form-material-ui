@@ -1,0 +1,107 @@
+@charset 'utf-8';
+
+::selection {
+  background-color: rgba(0, 188, 212, .5);
+}
+
+html {
+  color: #555;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  min-width: 320px;
+}
+
+a {
+  color: rgb(0, 188, 212);
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h2 {
+  margin: 2em 0 0.5em;
+}
+
+header {
+  padding: 5rem 0;
+  text-align: center;
+  line-height: 1.75;
+  background: rgb(0, 188, 212);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  color: #fff;
+}
+
+header h1 {
+  margin: 0.2em 0;
+  font-size: 2rem;
+}
+
+header p {
+  font-size: 0.875rem;
+}
+
+footer {
+  margin: 8rem 0 0;
+  padding: 8rem 0;
+  background: #fafafa;
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.75;
+}
+
+footer * {
+  margin: 0;
+}
+
+form > div > label {
+  display: block;
+  margin: 0 0 0.5em;
+  font-weight: bold;
+}
+
+form button {
+  display: inline-block;
+  margin: 0;
+  background: #20c59d;
+  border: none;
+  color: #fff;
+  padding: 0.8em 2em;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 1.4;
+}
+
+form button:focus {
+  outline: none;
+}
+
+form button:hover {
+  background: #1dad8a;
+}
+
+form button:active {
+  background: #1a9c7d;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16) inset;
+}
+
+pre code {
+  display: block;
+  padding: 1em;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  font-size: 0.75em;
+  color: #999;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 600px;
+  max-width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
