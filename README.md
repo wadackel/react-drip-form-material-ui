@@ -30,9 +30,9 @@ https://tsuyoshiwada.github.io/react-drip-form-material-ui/
 
 ## DEMO
 
-[![Screenshot](https://raw.githubusercontent.com/tsuyoshiwada/react-drip-form-material-ui/artwork/demo-screenshot.png)](https://tsuyoshiwada.github.io/react-drip-material-ui/)
+[![Screenshot](https://raw.githubusercontent.com/tsuyoshiwada/react-drip-form-material-ui/artwork/demo-screenshot.png)](https://tsuyoshiwada.github.io/react-drip-form-material-ui/)
 
-See [Live Demo](https://tsuyoshiwada.github.io/react-drip-material-ui/).
+See [Live Demo](https://tsuyoshiwada.github.io/react-drip-form-material-ui/).
 
 
 
