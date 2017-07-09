@@ -45,7 +45,7 @@ See [Live Demo](https://tsuyoshiwada.github.io/react-drip-form-material-ui/).
 
 ```bash
 $ npm install --save react-drip-form
-$ npm install --save react-drip-material-ui
+$ npm install --save react-drip-form-material-ui
 ```
 
 
