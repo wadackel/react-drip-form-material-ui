@@ -246,7 +246,7 @@ You must use `errorLabelStyle` to customize the style of error labels.
 1. Push to the branch: git push origin my-new-feature
 1. Submit a pull request :D
 
-Bugs, feature requests and comments are more than welcome in the [issues](https://github.com/tsuyoshiwada/react-drip-material-ui/issues).
+Bugs, feature requests and comments are more than welcome in the [issues](https://github.com/tsuyoshiwada/react-drip-form-material-ui/issues).
 
 
 
