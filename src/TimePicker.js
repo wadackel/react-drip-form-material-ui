@@ -23,12 +23,10 @@ export class TimePicker extends Component {
         onBlur,
         ...input
       },
-      props: {
-        shouldDisplayError,
-        errorLabelStyle,
-        ...rest
-      },
       meta,
+      shouldDisplayError,
+      errorLabelStyle,
+      ...rest
     } = this.props;
 
     const displayError = shouldDisplayError(this.props);

@@ -18,10 +18,8 @@ export const mockFieldProps = (input = {}, meta = {}, props = {}) => ({
     validating: false,
     ...meta,
   },
-  props: {
-    shouldDisplayError: () => false,
-    ...props,
-  },
+  shouldDisplayError: () => false,
+  ...props,
 });
 
 export const mockGroupProps = (meta = {}, props = {}) => ({

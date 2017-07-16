@@ -42,10 +42,9 @@ describe('<SelectField />', () => {
         onChange,
         ...input
       },
-      props: {
-        shouldDisplayError,
-        ...rest
-      },
+      meta,
+      shouldDisplayError,
+      ...rest
     } = props;
 
     expect(wrapper.equals(
@@ -86,10 +85,9 @@ describe('<SelectField />', () => {
         onChange,
         ...input
       },
-      props: {
-        shouldDisplayError,
-        ...rest
-      },
+      meta,
+      shouldDisplayError,
+      ...rest
     } = props;
 
     expect(wrapper.equals(

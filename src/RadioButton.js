@@ -11,13 +11,11 @@ export const RadioButton = (props) => {
       onChange,
       ...input
     },
-    props: {
-      shouldDisplayError,
-      errorLabelStyle,
-      labelText,
-      ...rest
-    },
     meta,
+    shouldDisplayError,
+    errorLabelStyle,
+    labelText,
+    ...rest
   } = props;
 
   const displayError = shouldDisplayError(props);

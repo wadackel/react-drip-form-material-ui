@@ -7,11 +7,9 @@ import defaultProps from './internal/defaultFieldProps';
 export const TextField = (props) => {
   const {
     input,
-    props: {
-      shouldDisplayError,
-      ...rest
-    },
     meta,
+    shouldDisplayError,
+    ...rest
   } = props;
 
   const displayError = shouldDisplayError(props);

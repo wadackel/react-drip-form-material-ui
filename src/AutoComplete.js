@@ -10,13 +10,13 @@ export class AutoComplete extends Component {
   handleClose = (...args) => {
     this.props.input.onBlur();
 
-    if (typeof this.props.props.onClose === 'function') {
-      this.props.props.onClose(...args);
+    if (typeof this.props.onClose === 'function') {
+      this.props.onClose(...args);
     }
   };
 
   handleNewRequest = (value, index) => {
-    const { dataSourceConfig, onNewRequest } = this.props.props;
+    const { dataSourceConfig, onNewRequest } = this.props;
 
     this.props.input.onChange(
       typeof value === 'object' && dataSourceConfig
@@ -32,19 +32,17 @@ export class AutoComplete extends Component {
   handleUpdate = (value, dataSource, params) => {
     this.props.input.onChange(value);
 
-    if (typeof this.props.props.onUpdateInput === 'function') {
-      this.props.props.onUpdateInput(value, dataSource, params);
+    if (typeof this.props.onUpdateInput === 'function') {
+      this.props.onUpdateInput(value, dataSource, params);
     }
   };
 
   render() {
     const {
       input,
-      props: {
-        shouldDisplayError,
-        ...rest
-      },
       meta,
+      shouldDisplayError,
+      ...rest
     } = this.props;
 
     const displayError = shouldDisplayError(this.props);

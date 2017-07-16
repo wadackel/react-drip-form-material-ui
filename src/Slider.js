@@ -21,12 +21,10 @@ export class Slider extends Component {
         onChange,
         ...input
       },
-      props: {
-        shouldDisplayError,
-        errorLabelStyle,
-        ...rest
-      },
       meta,
+      shouldDisplayError,
+      errorLabelStyle,
+      ...rest
     } = this.props;
 
     const displayError = shouldDisplayError(this.props);

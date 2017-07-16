@@ -45,11 +45,8 @@ describe('<AutoComplete />', () => {
 
     wrapper.setProps({
       ...props,
-      props: {
-        ...props.props,
-        dataSourceConfig: {
-          value: 'value',
-        },
+      dataSourceConfig: {
+        value: 'value',
       },
     });
     wrapper.instance().handleNewRequest({ value: 'foo' }, 2);
@@ -90,10 +87,9 @@ describe('<AutoComplete />', () => {
 
     const {
       input,
-      props: {
-        shouldDisplayError,
-        ...rest
-      },
+      meta,
+      shouldDisplayError,
+      ...rest
     } = props;
 
     expect(wrapper.equals(

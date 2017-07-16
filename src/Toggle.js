@@ -12,13 +12,11 @@ export const Toggle = (props) => {
       checked,
       ...input
     },
-    props: {
-      shouldDisplayError,
-      errorLabelStyle,
-      labelText,
-      ...rest
-    },
     meta,
+    shouldDisplayError,
+    errorLabelStyle,
+    labelText,
+    ...rest
   } = props;
 
   const displayError = shouldDisplayError(props);

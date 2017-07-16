@@ -36,12 +36,11 @@ describe('<Checkbox />', () => {
         onChange: _onChange,
         ...input
       },
-      props: {
-        shouldDisplayError,
-        errorLabelStyle,
-        labelText: _labelText,
-        ...rest
-      },
+      meta,
+      shouldDisplayError,
+      errorLabelStyle,
+      labelText: _labelText,
+      ...rest
     } = props;
 
     expect(wrapper.equals(
@@ -75,12 +74,11 @@ describe('<Checkbox />', () => {
         onChange: _onChange,
         ...input
       },
-      props: {
-        shouldDisplayError,
-        errorLabelStyle,
-        labelText,
-        ...rest
-      },
+      meta,
+      shouldDisplayError,
+      errorLabelStyle,
+      labelText,
+      ...rest
     } = props;
 
     expect(wrapper.equals(

@@ -26,11 +26,10 @@ describe('<TextField />', () => {
     const wrapper = shallow(<TextField {...props} />);
     const {
       input,
-      props: {
-        shouldDisplayError,
-        shouldDisplaySpinner,
-        ...rest
-      },
+      meta,
+      shouldDisplayError,
+      shouldDisplaySpinner,
+      ...rest
     } = props;
 
     expect(wrapper.equals(
@@ -56,11 +55,10 @@ describe('<TextField />', () => {
 
     const {
       input,
-      props: {
-        shouldDisplayError,
-        shouldDisplaySpinner,
-        ...rest
-      },
+      meta,
+      shouldDisplayError,
+      shouldDisplaySpinner,
+      ...rest
     } = props;
 
     expect(wrapper.equals(

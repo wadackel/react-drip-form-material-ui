@@ -17,12 +17,10 @@ export class SelectField extends Component {
         onChange,
         ...input
       },
-      props: {
-        children,
-        shouldDisplayError,
-        ...rest
-      },
       meta,
+      children,
+      shouldDisplayError,
+      ...rest
     } = this.props;
 
     const displayError = shouldDisplayError(this.props);

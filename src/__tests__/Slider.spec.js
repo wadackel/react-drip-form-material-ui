@@ -45,11 +45,10 @@ describe('<Slider />', () => {
         onChange,
         ...input
       },
-      props: {
-        shouldDisplayError,
-        errorLabelStyle,
-        ...rest
-      },
+      meta,
+      shouldDisplayError,
+      errorLabelStyle,
+      ...rest
     } = props;
 
     expect(wrapper.equals(
