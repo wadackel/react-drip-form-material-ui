@@ -47,9 +47,10 @@ describe('Internal#<ErrorLabel />', () => {
       <ErrorLabel style={{ color: 'green', fontSize: 14 }}>
         error
       </ErrorLabel>
-    , {
-      context: mockContext(),
-    });
+      , {
+        context: mockContext(),
+      }
+    );
 
     expect(wrapper.prop('style').fontSize).toBe(14);
     expect(wrapper.prop('style').color).toBe('green');
