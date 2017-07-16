@@ -25,11 +25,11 @@ a:hover {
 
 h2 {
   margin: 2em 0 0.5em;
+  color: rgb(0, 188, 212);
 }
 
 header {
   padding: 5rem 0;
-  text-align: center;
   line-height: 1.75;
   background: rgb(0, 188, 212);
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
@@ -37,19 +37,20 @@ header {
 }
 
 header h1 {
-  margin: 0.2em 0;
-  font-size: 2rem;
+  margin: 0;
+  font-size: 2.6rem;
+  line-height: 1.4;
 }
 
 header p {
+  margin: 1em 0 0;
   font-size: 0.875rem;
 }
 
 footer {
   margin: 8rem 0 0;
-  padding: 8rem 0;
-  background: #fafafa;
-  text-align: center;
+  padding: 5rem 0;
+  background: #212121;
   font-size: 0.875rem;
   line-height: 1.75;
 }
@@ -100,7 +101,7 @@ pre code {
 
 .container {
   box-sizing: border-box;
-  width: 600px;
+  width: 720px;
   max-width: 100%;
   padding: 0 20px;
   margin: 0 auto;

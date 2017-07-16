@@ -14,7 +14,10 @@ export default () => (
     <div className="container">
       <h2>Sample Form:</h2>
       <SampleForm
-        onChange={values => console.log('onChange()', values)}
+        onValidSubmit={(values) => {
+          alert('See Console'); // eslint-disable-line no-alert
+          console.log(values);
+        }}
       />
     </div>
 
