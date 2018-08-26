@@ -67,7 +67,7 @@ import {
   TextField,
   TimePicker,
   Toggle,
-} from 'react-drip-material-ui';
+} from 'react-drip-form-material-ui';
 
 
 export default dripForm({/* form options */})(({ handlers }) => (
